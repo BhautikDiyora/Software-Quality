@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import "./navbar.scss"
+import logo from './moviefy-low-resolution-logo-white-on-black-background.jpeg'
 import { Search, Notifications,  ArrowDropDown } from '@mui/icons-material';
 
 const Navbar = () => {
@@ -17,7 +18,7 @@ const Navbar = () => {
        <div className="container">
          <div className='left'>
             <img
-              src='https://www.animationxpress.com/wp-content/uploads/2020/01/shemaroome-logo.jpg'
+              src={logo} width={100}
               alt=''
             />
             <span>Home</span>
